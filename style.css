@@ -1,0 +1,73 @@
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.center-box {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.myself, .opponent {
+    width: 50%;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.image {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.result {
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn-basicconfig {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 0 50px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+#retry {
+    display: none;
+}

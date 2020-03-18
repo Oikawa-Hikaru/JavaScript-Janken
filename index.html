@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>じゃんけん</h1>
+    <div class="main">
+        <div class="center-box">
+            <div class="myself">
+                <div class="name">自分</div>
+                <div class="image" id="a"></div>
+            </div>
+            <div class="opponent">
+                <div class="name">相手</div>
+                <div class="image" id="b"></div>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <h2>じゃんけん！...</h2>
+    </div>
+    <div class="button">
+        <div class="button-center">
+            <a href="#" class="btn-basicconfig janken" id="goo">グー</a>
+            <a href="#" class="btn-basicconfig janken" id="choki">チョキ</a>
+            <a href="#" class="btn-basicconfig janken" id="par">パー</a>
+            <a href="#" class="btn-basicconfig" id="retry" onClick="window.location.reload();">もう一回する</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
